@@ -7,11 +7,17 @@ body {
   color: $primary-color;*/
 }
 
-/*header  {
-    display: subgrid;
-    grid-column: 2;
-    grid-row: 2;
-}*/
+header {
+  display: subgrid;
+  /*grid-template-areas: 'nav' 'pageTitle';*/
+  grid-template-columns: 1fr, 1fr;
+}
+
+.pageTitle {
+  display: subgrid;
+  grid-template-rows: 1fr, 1fr;
+}
+
 /*nav{
     width: 50px;
     background-color: $heading-font-color;
